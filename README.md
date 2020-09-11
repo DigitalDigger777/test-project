@@ -25,6 +25,11 @@ Last step - run dev server
 php artisan serve
 ```
 
+Run tests
+```bash
+php artisan test
+```
+
 enjoy on http://127.0.0.1:8000
 
 ### curl commands for test api
@@ -83,8 +88,5 @@ Delete project
 curl -X DELETE http://127.0.0.1:8000/api/projects/11
 ```
 
-це досить примітивна реалізація, якби це був реальний проект, то сюди була би включена документація з використанням swagger
-для списку клієнтів, та проектів, була би додана пагінація. І звичайно усі операції по свторенню, оновленню, видаленню, були би захищені.
- 
 
 
